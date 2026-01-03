@@ -8,6 +8,6 @@ Malware often employs ordinals to evade static analysis detection. To locate fun
 dumpbin /exports C:\Windows\System32\kernel32.dll | findstr GetProcAddress
 
 Output example:
-718 2CD 00013C30 GetProcAddress
+718 | GetProcAddress
 
 The leftmost column represents the ordinal! 718
