@@ -2,7 +2,7 @@
 format PE64 GUI 
 entry start
 
-include 'C:\FLAT\INCLUDE\win64a.inc' 
+include 'win64a.inc' 
 
 
 section '.text' code readable executable
@@ -95,6 +95,7 @@ library kernel32, 'KERNEL32.DLL', \
            
     import user32,\
             MessageBoxA, 'MessageBoxA'
+
 
 
 
